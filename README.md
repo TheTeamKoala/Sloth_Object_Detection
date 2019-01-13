@@ -1,1 +1,1 @@
-# Sloth_Object_Detection
+# Object Detection System for the SLOTH project
