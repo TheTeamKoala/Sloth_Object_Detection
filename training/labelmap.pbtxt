@@ -1,0 +1,109 @@
+item {
+  id: 0
+  name: 'other'
+}
+
+item {
+  id: 1
+  name: 'aycicekyag'
+}
+ 
+item {
+  id: 2
+  name: 'bal'
+}
+ 
+item {
+  id: 3
+  name: 'fanta'
+}
+ 
+item {
+  id: 4
+  name: 'gazoz'
+}
+ 
+item {
+  id: 5
+  name: 'hardal'
+}
+ 
+item {
+  id: 6
+  name: 'kasar'
+}
+
+item {
+  id: 7
+  name: 'ketcap'
+}
+
+item {
+  id: 8
+  name: 'kola'
+}
+
+item {
+  id: 9
+  name: 'mayonez'
+}
+
+item {
+  id: 10
+  name: 'meyvesuyu'
+}
+
+item {
+  id: 11
+  name: 'peynir'
+}
+
+item {
+  id: 12
+  name: 'salam'
+}
+
+item {
+  id: 13
+  name: 'sosis'
+}
+
+item {
+  id: 14
+  name: 'sucuk'
+}
+
+item {
+  id: 15
+  name: 'sut'
+}
+
+item {
+  id: 16
+  name: 'tereyag'
+}
+
+item {
+  id: 17
+  name: 'tursu'
+}
+
+item {
+  id: 18
+  name: 'yogurt'
+}
+
+item {
+  id: 19
+  name: 'yumurta'
+}
+
+item {
+  id: 20
+  name: 'zeytin'
+}
+
+item {
+  id: 21
+  name: 'zeytinyag'
+}
