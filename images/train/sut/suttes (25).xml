@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Süt</folder>
+	<filename>images (25).jpg</filename>
+	<path>D:\Veri-Seti\Süt\images (25).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>65</xmin>
+			<ymin>15</ymin>
+			<xmax>161</xmax>
+			<ymax>206</ymax>
+		</bndbox>
+	</object>
+</annotation>
