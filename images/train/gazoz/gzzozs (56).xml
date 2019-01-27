@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Gazoz</folder>
+	<filename>images (56).jpg</filename>
+	<path>D:\Veri-Seti\Gazoz\images (56).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gazoz</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>53</xmin>
+			<ymin>4</ymin>
+			<xmax>172</xmax>
+			<ymax>222</ymax>
+		</bndbox>
+	</object>
+</annotation>
