@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Fanta</folder>
+	<filename>images (7).jpg</filename>
+	<path>D:\Veri-Seti\Fanta\images (7).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>192</width>
+		<height>263</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fanta</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>45</xmin>
+			<ymin>14</ymin>
+			<xmax>139</xmax>
+			<ymax>248</ymax>
+		</bndbox>
+	</object>
+</annotation>
