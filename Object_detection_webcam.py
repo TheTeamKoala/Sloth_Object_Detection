@@ -62,7 +62,7 @@ def job():
 
     objects = []
     print("I'm working...")
-    for i in range(10):
+    for i in range(5):
         ret, frame = camera.read()
         frame_expanded = np.expand_dims(frame, axis=0)
 
@@ -88,7 +88,8 @@ def job():
             min_score_thresh=0.75)
 
         # cv2.imshow('Object detector', frame)
-        cv2.imwrite('image.png', frame)
+        if len(objects) > 0:
+            cv2.imwrite('image.png', frame)
 
     diff_list = diff(all_objects, objects)
     for obj in objects:
@@ -104,7 +105,6 @@ def job():
     cv2.destroyAllWindows()
 
 
-job()
 schedule.every(1).minutes.do(job)
 
 while True:

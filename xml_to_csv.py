@@ -26,8 +26,8 @@ def xml_to_csv(path):
 
 
 def main():
-    folder_path = ['fanta', 'gazoz', 'hardal', 'kasar', 'ketcap', 'kola', 'limonata', 'mayonez', 'meyvesuyu',
-                   'peynir', 'salam', 'soda', 'sosis', 'sucuk', 'sut', 'tereyag', 'yogurt', 'yumurta']
+    folder_path = ['fanta', 'fanta1', 'gazoz', 'gazoz1', 'hardal', 'kasar', 'ketcap', 'kola', 'limonata', 'mayonez',
+                   'meyvesebze', 'meyvesuyu', 'peynir', 'soda', 'sut', 'tereyag', 'yogurt', 'yumurta', 'zzz']
     for folder1 in ['train', 'test']:
         for folder2 in folder_path:
             image_path = os.path.join(os.getcwd(), ('images/' + folder1 + '/' + folder2))
