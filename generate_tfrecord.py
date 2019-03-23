@@ -49,22 +49,46 @@ def class_text_to_int(row_label):
         return 9
     elif row_label == 'peynir':
         return 10
-    elif row_label == 'salam':
-        return 11
     elif row_label == 'soda':
-        return 12
-    elif row_label == 'sosis':
-        return 13
-    elif row_label == 'sucuk':
-        return 14
+        return 11
     elif row_label == 'sut':
-        return 15
+        return 12
     elif row_label == 'tereyag':
-        return 16
+        return 13
     elif row_label == 'yogurt':
-        return 17
+        return 14
     elif row_label == 'yumurta':
+        return 15
+    elif row_label == 'elma':
+        return 16
+    elif row_label == 'kivi':
+        return 17
+    elif row_label == 'karpuz':
         return 18
+    elif row_label == 'marul':
+        return 19
+    elif row_label == 'turp':
+        return 20
+    elif row_label == 'patlican':
+        return 21
+    elif row_label == 'biber':
+        return 22
+    elif row_label == 'salatalik':
+        return 23
+    elif row_label == 'limon':
+        return 24
+    elif row_label == 'portakal':
+        return 25
+    elif row_label == 'lahana':
+        return 26
+    elif row_label == 'muz':
+        return 27
+    elif row_label == 'cilek':
+        return 28
+    elif row_label == 'havuc':
+        return 29
+    elif row_label == 'domates':
+        return 30
     else:
         None
 
@@ -117,8 +141,8 @@ def create_tf_example(group, path):
 
 
 def main(_):
-    img_dirs = ['fanta', 'gazoz', 'hardal', 'kasar', 'ketcap', 'kola', 'limonata', 'mayonez', 'meyvesuyu',
-                'peynir', 'salam', 'soda', 'sosis', 'sucuk', 'sut', 'tereyag', 'yogurt', 'yumurta']
+    img_dirs = ['fanta', 'fanta1', 'gazoz', 'gazoz1', 'hardal', 'kasar', 'ketcap', 'kola', 'limonata', 'mayonez',
+                'meyvesebze', 'meyvesuyu', 'peynir', 'soda', 'sut', 'tereyag', 'yogurt', 'yumurta', 'zzz']
     writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
     for i in img_dirs:
         path = os.path.join(os.getcwd(), (FLAGS.image_dir + '/' + i))

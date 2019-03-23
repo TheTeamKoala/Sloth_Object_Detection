@@ -1,0 +1,149 @@
+item {
+  id: 1
+  name: 'fanta'
+}
+ 
+item {
+  id: 2
+  name: 'gazoz'
+}
+ 
+item {
+  id: 3
+  name: 'hardal'
+}
+
+item {
+  id: 4
+  name: 'kasar'
+}
+
+item {
+  id: 5
+  name: 'ketcap'
+}
+
+item {
+  id: 6
+  name: 'kola'
+}
+
+item {
+  id: 7
+  name: 'limonata'
+}
+
+item {
+  id: 8
+  name: 'mayonez'
+}
+
+item {
+  id: 9
+  name: 'meyvesuyu'
+}
+
+item {
+  id: 10
+  name: 'peynir'
+}
+
+item {
+  id: 11
+  name: 'soda'
+}
+
+item {
+  id: 12
+  name: 'sut'
+}
+
+item {
+  id: 13
+  name: 'tereyag'
+}
+
+item {
+  id: 14
+  name: 'yogurt'
+}
+
+item {
+  id: 15
+  name: 'yumurta'
+}
+
+item {
+  id: 16
+  name: 'elma'
+}
+
+item {
+  id: 17
+  name: 'kivi'
+}
+
+item {
+  id: 18
+  name: 'karpuz'
+}
+
+item {
+  id: 19
+  name: 'marul'
+}
+
+item {
+  id: 20
+  name: 'turp'
+}
+
+item {
+  id: 21
+  name: 'patlican'
+}
+
+item {
+  id: 22
+  name: 'biber'
+}
+
+item {
+  id: 23
+  name: 'salatalik'
+}
+
+item {
+  id: 24
+  name: 'limon'
+}
+
+item {
+  id: 25
+  name: 'portakal'
+}
+
+item {
+  id: 26
+  name: 'lahana'
+}
+
+item {
+  id: 27
+  name: 'muz'
+}
+
+item {
+  id: 28
+  name: 'cilek'
+}
+
+item {
+  id: 29
+  name: 'havuc'
+}
+
+item {
+  id: 30
+  name: 'domates'
+}
